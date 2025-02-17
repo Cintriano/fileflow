@@ -65,7 +65,7 @@ O programa FileFlow permite realizar **buscas nos registros de execução**, fac
 
 Ao buscar por um nome, o programa retorna a **linha correspondente** do registro, fornecendo todos os detalhes da execução, como data, hora, tipo de operação, nome antigo, nome novo e dispositivo de origem.
 
-## ➕Funcionalidade extras
+## ➕Funcionalidade extra
 Uma funcionalidade extra do **FileFlow** é a capacidade de lidar com alterações no nome de arquivos feitas por programas de edição de imagens.
 
 Por exemplo, programas como o **Adobe Lightroom** podem adicionar sufixos ao nome do arquivo, como **"Enhanced"** ou **"Aprimorado"**, quando há aprimoramentos realizados com **IA** na imagem. O **FileFlow** oferece uma função para **remover automaticamente** esses sufixos adicionados, restaurando o nome original do arquivo sem essas modificações.
