@@ -1,3 +1,4 @@
+
 # Gerenciador de Fotos 📸
 
 Este projeto foi criado para facilitar meu workflow de edição e gerenciamento de fotos, permitindo lidar com grandes volumes de arquivos em poucos segundos.
@@ -25,6 +26,28 @@ Quando o arquivo não contém metadados suficientes para a renomeação ideal, o
 Nesse caso, ele extrai e limpa os dados relevantes do nome original e os utiliza para realizar a renomeação seguindo o padrão estabelecido.
 
 ### ❓ Pior Caso (Sem Informações Disponíveis)
+
 Esse caso se aplica a arquivos que não possuem nenhuma informação de data disponível, seja nos metadados ou no nome do arquivo.
 
 Como o programa não tem dados suficientes para determinar uma data, ele segue um padrão específico para esses casos, utilizando um formato genérico, definido **IMG_94264**.
+
+#### ❗Detalhes
+Importante resaltar que o programa tem a capacidade de diferenciar entre o melhor caso e caso medio, executando a melhor abordagem de acordo com a situação, porem para o pior caso os arquivos precisam ser isolados e executados separadamente.
+
+Também é possível realizar **renomeações manuais**, permitindo que o usuário forneça uma data específica que será aplicada a todos os arquivos de imagem em uma pasta selecionada.
+
+Essa funcionalidade é útil quando os metadados estão ausentes ou imprecisos, garantindo que os arquivos sejam organizados corretamente conforme a necessidade do usuário.
+
+## 🔄 Conversão
+Essa funcionalidade é responsável por realizar a **conversão de formatos de imagens**. Os formatos suportados para conversão são: CR2 (arquivos brutos da câmera)
+
+-   **CR2**  → **JPG**
+-   **CR2**  → **PNG**
+-   **PNG** → **JPG**
+-   **JPG** → **PNG**
+
+Essa ferramenta torna o processo de adaptação de imagens para diferentes formatos rápido e simples, sem a necessidade de softwares adicionais, a execução é realizada em toda a pasta selecionada.
+
+## 📜Registro das execuções
+
+## 🔍Busca nos registros
