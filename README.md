@@ -58,14 +58,14 @@ As informações registradas incluem:
 -   **Nome novo** e **nome antigo** do arquivo
 -   **Dispositivo de origem**
 
-Esses registros permitem um fácil rastreamento e consulta das ações realizadas no sistema.
+Esses registros permitem um fácil rastreamento e consulta das ações realizadas no sistema, é gerado um arquivo para armazenar os registros a cada mês.
 
 ## 🔍Consulta dos registros
 O programa FileFlow permite realizar **buscas nos registros de execução**, facilitando a recuperação de informações sobre operações anteriores. A busca é feita com base no **nome pós-execução** do arquivo, ou seja, o nome do arquivo após a renomeação ou conversão.
 
 Ao buscar por um nome, o programa retorna a **linha correspondente** do registro, fornecendo todos os detalhes da execução, como data, hora, tipo de operação, nome antigo, nome novo e dispositivo de origem.
 
-## ➕Funcionalidade extra
+## ➕Funcionalidade extras
 Uma funcionalidade extra do **FileFlow** é a capacidade de lidar com alterações no nome de arquivos feitas por programas de edição de imagens.
 
 Por exemplo, programas como o **Adobe Lightroom** podem adicionar sufixos ao nome do arquivo, como **"Enhanced"** ou **"Aprimorado"**, quando há aprimoramentos realizados com **IA** na imagem. O **FileFlow** oferece uma função para **remover automaticamente** esses sufixos adicionados, restaurando o nome original do arquivo sem essas modificações.
