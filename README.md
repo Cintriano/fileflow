@@ -1,4 +1,5 @@
 Gerenciador de Fotos 📸
+
 Este projeto foi criado para facilitar meu workflow de edição e gerenciamento de fotos, permitindo lidar com grandes volumes de arquivos em poucos segundos.
 
 ✨ Funcionalidades
